@@ -14,9 +14,8 @@ export class MetaDataStructure extends CommonEntity {
     status: string;
 
     @IsNumber()
-    @Expose({ name: 'metaDataStructureId' })
-    @Column({ nullable: true })
-    measurement_system_id: number;
+    @Column({ nullable: true, name: 'measurement_system_id' })
+    referenceGroupId: number;
 
     // ===========================================================================
     // Hooks
