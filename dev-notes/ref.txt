@@ -1,0 +1,7 @@
+nestjs solid patterns github repo & youtube video
+-> https://github.com/ipenywis/nestjs-solid/blob/main/src/modules/OCP/orders/orders.service.ts 
+-> https://www.youtube.com/watch?v=vE74gnv4VlY&t=961s
+
+
+nestjs repository pattern github repo
+-> https://github.com/Jon-Peppinck/messenger-api/blob/master/libs/shared/src/repositories/conversations.repository.ts

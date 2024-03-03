@@ -1,0 +1,18 @@
+- logging
+- serialization of responses
+- intercept responses
+- refactor all put endpoints when we update status to deleted to a seprate delete http request
+- in dtos we need to add more custom validation messages
+- we need to keep refactoring our folder structure and erd as we go along
+- common error object need to be more expressive
+- eslinting and formatting prettier
+
+
+
+
+later
+- Switch to postgres (schema multi-tenancy & postgres security)
+- Cookie based auth
+- Swagger (api docs)
+- Unit & Integration testing
+- Rate Limiting

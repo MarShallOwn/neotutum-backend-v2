@@ -1,0 +1,18 @@
+1. decoupling as much as possible
+2. maintain repository pattern and settle for importing services in other modules when logic is needed
+3. adhere to sql & api naming conventions
+4. adhere to sql normalization https://popsql.com/blog/normalization-in-sql
+5. implement parent module pattern for objects, groups
+6. implement filter interceptor for providing error object to frontend
+7. implement flexible and more dynamic template creation for both groups and riskviews
+8. when fetching any entities the method needs to be flexible, forexample fetch riskview riskobjects origin only and shared included, attributes to be included/excluded etc.
+9. all models needs to have timestamps & paranoid (deletedAt) including utilizing entity status field
+10. Follow DRY pattern (unless needed)
+11. Dataobject Refactor??
+12. utilize bulk create!!
+13. Custom decorators
+14. transactions (Atomicity)
+15. scenario id & runid need to be added in all riskview endpoints related
+16. polymorphic associations
+17. migrations
+18. sql tables config should be ireland timezone greenwich +00:00
